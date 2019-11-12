@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Models\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="DomainProject">
+      <HintPath>..\DomainProject\bin\Debug\netcoreapp3.0\DomainProject.dll</HintPath>
+    </Reference>
+    <Reference Include="ProjectDb">
+      <HintPath>..\ProjectDb\bin\Debug\netcoreapp3.0\ProjectDb.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

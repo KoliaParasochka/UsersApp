@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="ProjectDb">
+      <HintPath>..\ProjectDb\bin\Debug\netcoreapp3.0\ProjectDb.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
